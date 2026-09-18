@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #xmark {
+            text-align: right;
+            font-size: 2rem;
+       
+       
+        }
+
+        #go{
+            text-align: center;
+            font-size: 3.7rem;
+            background-color: rgb(67, 151, 67);
+            margin-left: 40%;
+            margin-right: 40%;
+            border-radius: 200px;
+            color: rgb(249, 255, 185);
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;   
+                  width: 150px;
+                  height: 160px ;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            text-align: center;
+            background-color: ghostwhite;
+        }
+
+
+        form {
+            margin: 13px;
+            margin-right: 67px;
+
+        }
+
+
+
+        .og {
+            width: 100%;
+            text-align: left;
+            padding: 4px;
+            height: 20px;
+            display: block;
+        }
+
+        button {
+            color: white;
+            background-color: limegreen;
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            margin-bottom: 15px;
+        }
+
+        #checkbox {
+            text-align: left;
+
+        }
+
+        footer {
+            background-color: rgb(230, 230, 230);
+        }
+
+        footer>div {
+            text-align: left;
+
+        }
+
+        #cancel {
+            display: inline-block;
+            text-align: center;
+            color: white;
+            background-color: red;
+            text-decoration: none;
+            align-items: left;
+            justify-content: left;
+            margin: 10px;
+            border-radius: 6px;
+            height: 12px;
+            padding: 13px;
+
+        }
+
+        a {
+            text-decoration: underline;
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="node_modules\vazirmatn\misc\Farsi-Digits\Vazirmatn-FD-font-face.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="xmark"><i class="fa-solid fa-xmark"></i></p>
+
+
+
+    <figure id="go">
+        <i class="fa-solid fa-user"></i>
+    </figure>
+    <section>
+        <form action="#">
+
+            <label for="" class="og">Username</label>
+            <input type="text" name="Username" required placeholder="Enter Username" class="og">
+            <label for="" class="og">Password</label>
+            <input type="password" placeholder="Enter Password" required class="og">
+            <button>Login</button>
+            <div id="checkbox">
+                <label for="">Remember Me</label>
+                <input type="checkbox" checked>
+            </div>
+
+
+
+
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <div>
+            <a href="#" id="cancel">Cancel</a>
+        </div>
+        Forgot <a href="#"> password</a>
+
+    </footer>
+
+
+</body>
+
+</html>
